@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>ETCH A SKETCH</h1>
+    <div class="main-container">
+    <div class="btn-container">
+                <button class="btn" id="but16" onclick="resetGrid();setGrids(16,16,1.8,1.8)">16 x 16</button>
+                <button class="btn" id="but32" onclick="resetGrid();setGrids(32,32, 0.9, 0.9)">32 x 32</button>
+                <button class="btn" id="but64" onclick="resetGrid();setGrids(64,64, 0.45, 0.45)">64 x 64</button>
+                <button class="btn" id="but128" onclick="resetGrid();setGrids(128,128,0.225,0.225)">128 x 128</button>
+            <button class="btn" id="but1">SOME Magic</button>
+    </div>
+    <div id="container"></div>
+    </div>
+</body>
+</html>

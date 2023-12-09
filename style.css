@@ -1,0 +1,44 @@
+body,html {
+    
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+#container {
+place-items: center;
+display: grid;
+width: 30vw;
+height: 30vw;
+border: 1px solid black;
+border-radius: 5px;
+}
+.btn{
+padding: 0.7em 2em 0.7em 2em;
+width: 100%;
+color: aliceblue;
+background-color: black;
+}
+h1 {
+
+}
+.main-container {
+    margin-top: 10vh;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50vw;
+    padding: 5% 10% 5% 10%;
+   
+}
+.btn-container {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 0;
+    width: 30%;
+    
+}
